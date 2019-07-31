@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+echo "Deploying this application directly has been disabled because it is deployed via Heroku Pipelines"
+
+exit 1
